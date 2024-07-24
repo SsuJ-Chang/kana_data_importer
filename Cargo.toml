@@ -1,0 +1,10 @@
+[package]
+name = "kana_data_importer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+mongodb = "2.3.0"
+dotenv = "0.15.0"
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
